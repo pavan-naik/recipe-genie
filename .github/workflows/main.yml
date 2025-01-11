@@ -2,10 +2,10 @@ name: Deploy to HF Spaces
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     
 jobs:
-  sync-to-hub:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
