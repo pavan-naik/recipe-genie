@@ -1,0 +1,4 @@
+gradio
+vllm
+langchain 
+langchain_community 
