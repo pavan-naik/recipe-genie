@@ -1,5 +1,6 @@
 huggingface-hub
 transformers
+gradio
 
 
 # Linting and formatting
