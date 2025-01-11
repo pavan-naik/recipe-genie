@@ -9,7 +9,7 @@ lint:
 	mypy src tests
 
 test:
-	pytest tests/ -v --cov=src/ --cov-report=term-missing
+	pytest tests/ -vv --cov=src/ --cov-report=term-missing
 
 clean:
 	rm -rf build/
